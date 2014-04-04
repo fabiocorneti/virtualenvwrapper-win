@@ -104,7 +104,7 @@ setup(
 
     scripts=[scripts_loc + script for script in scripts],
 
-    install_requires=['virtualenv',],
+    install_requires=['virtualenv>=1.11',],
     
     # extras
     # pywin==0.2
